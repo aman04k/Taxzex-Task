@@ -1,0 +1,175 @@
+/* top-Bar */
+.text-orange {
+  color: #f15a24 !important;
+}
+.btn-light {
+  border: 2px solid #f15a24 !important;
+}
+.btn-light:hover {
+  background: #f15a24 !important;
+  color: #fff !important;
+}
+
+
+
+/* Section 1 */
+
+
+.hero-section {
+  position: relative;
+  background: url('Images/Rectangle\ 3494.png') center center / cover no-repeat;
+  min-height: 65vh;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #322a2a30; 
+}
+
+.hero-section > .container {
+  position: relative; 
+  z-index: 1;
+}
+
+.dropdown-item:hover {
+  color: #f15a24 !important;
+  background: transparent !important;
+  font-weight: 500;
+}
+
+#startDropdown:hover{
+  color: #f15a24 !important;
+  background: transparent !important;
+  font-weight: 500;
+
+}
+/* Dropdown ka arrow (caret) remove karega */
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+/* By default dropdown-menu hidden rahe */
+.nav-item.dropdown .dropdown-menu {
+  display: none;
+  left: 0;         
+  right: 0;         
+  width: 100vw;     
+}
+
+/* Hover par dropdown-menu dikhe */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  
+
+}
+
+
+
+
+/* section 2 */
+
+
+.input-group-text {
+  padding: 0.6rem 1rem;
+}
+.form-control {
+  padding: 0.6rem 1rem;
+}
+
+/* section 3 */
+
+.brand-logo {
+  max-height: 40px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.brand-logo:hover {
+  filter: grayscale(0%);
+}
+
+/* section 4 */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* section 5 */
+
+.why-taxzex .bg-cover {
+   background: url('Images/Rectangle\ 3432.png') center center / cover no-repeat;
+  position: relative;
+}
+
+.why-taxzex .overlay {
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.why-taxzex .row {
+  font-size: 15px;
+}
+
+.compare-box {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* Footer section */
+
+.bg-orange {
+  background-color: #f15a24 !important;
+}
+
+.footer-link {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #f15a24;
+}
+
+.footer-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.footer-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 40px;
+  height: 2px;
+  background-color: #f15a24;
+}
+
+
+/* section 7 */
+.btn-gradient {
+  background: linear-gradient(90deg, #f08149, #b95212);
+  color: #fff; 
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  color: #fff; 
+}
